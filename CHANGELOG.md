@@ -9,9 +9,9 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 ### Added
 
 - Worked end-to-end example in `using-prose-shaper` (meeting-note before/after with phase-by-phase log).
-- `clarity`: two new procedure steps — "Omit needless words and intensifying adverbs", "Replace jargon and cliches with plain, specific words".
-- `flow`: two new procedure steps — "Map the document" (give the reader a map; lead with ownership), "Cut across expectation".
-- `craft`: three new procedure steps — "Open at the change" (start late + lead with ownership), "Let dialogue do work", "Small paragraphs as stories".
+- `clarity`: two new procedure steps — "Omit needless words and intensifying adverbs," "Replace jargon and cliches with plain, specific words."
+- `flow`: two new procedure steps — "Map the document" (give the reader a map; lead with ownership), "Cut across expectation."
+- `craft`: three new procedure steps — "Open at the change" (start late + lead with ownership), "Let dialogue do work," "Small paragraphs as stories."
 
 ### Changed
 

@@ -56,7 +56,7 @@ prose-shaper runs your draft through five passes, each fixing one kind of proble
 2. **clarity** — cuts warm-ups, hedging, nominalizations; trades "to be" for action verbs.
 3. **flow** — varies sentence length, enforces parallel structure, moves the heaviest word to the end.
 4. **craft** — applies persuasive moves (skipped automatically if the register isn't persuasive).
-5. **polish** — punctuation pass and a final scan where every sentence earns rent.
+5. **polish** — fixes punctuation and runs a final scan where every sentence earns rent.
 
 `/shape` runs all five. The single-phase commands (`/clarity`, `/flow`, etc.) skip straight to the pass you need.
 
@@ -79,4 +79,4 @@ Issues and PRs welcome at [github.com/jorgecar/prose-shaper](https://github.com/
 
 ## License
 
-Apache 2.0. See `LICENSE`. Examples derived from external sources are credited in `ATTRIBUTION.md` (if present).
+Apache 2.0. See `LICENSE`. Examples derived from external sources are credited in `ATTRIBUTION.md`.
