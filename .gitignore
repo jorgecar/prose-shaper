@@ -1,0 +1,11 @@
+prose-shaper-workspace/
+evals/
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+node_modules/

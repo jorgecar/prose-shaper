@@ -1,0 +1,19 @@
+{
+  "name": "prose-shaper",
+  "owner": {
+    "name": "Jorge Carballo"
+  },
+  "metadata": {
+    "description": "Five-phase writing pipeline for Claude Code: assess, clarity, flow, craft, polish."
+  },
+  "plugins": [
+    {
+      "name": "prose-shaper",
+      "source": {
+        "source": "github",
+        "repo": "jorgecar/prose-shaper"
+      },
+      "description": "Shape any prose through a five-phase pipeline."
+    }
+  ]
+}
