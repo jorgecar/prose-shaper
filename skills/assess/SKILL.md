@@ -71,7 +71,7 @@ See `references/smell-catalog.md` for full definitions and detection rules.
 
 - **Standalone** (user ran `/assess` or asked for a diagnosis directly):
   - *Output*: Lead with a human-readable diagnostic (2-4 sentences naming register, audience, intent, and the top smells). Emit the `<assess-meta>` block at the end for completeness.
-  - *Hand-off*: Stop here. Do not edit the user's text. If they want edits, they will invoke `/clarity`, `/flow`, `/craft`, `/polish`, or `/shape` next.
+  - *Hand-off*: Stop here. Do not edit the user's text. End the response with: **Next:** `/clarity` to tighten, or `/shape` to run the full pipeline.
 
 - **Pipeline** (the meta-skill `using-prose-shaper` invoked this skill):
   - *Output*: Emit the `<assess-meta>` block first, on its own. A brief diagnostic afterward is optional.

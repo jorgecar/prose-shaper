@@ -48,5 +48,5 @@ For paragraph-level before/after demonstrations, see references/examples.md.
 
 ## Hand-off
 
-- **Standalone** (user invoked `/clarity` directly): Return the edited text and stop. Do not invoke other phases.
+- **Standalone** (user invoked `/clarity` directly): Return the edited text and stop. Do not invoke other phases. End the response with: **Next:** `/flow` to fix rhythm and parallelism.
 - **Pipeline** (meta-skill is running the full pipeline): The meta-skill handles routing — it will invoke `flow` next on your output. Do not chain yourself.

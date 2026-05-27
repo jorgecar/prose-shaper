@@ -51,5 +51,5 @@ For deeper guidance on each move, see `references/rhetorical-moves.md`.
 
 ## Hand-off
 
-- **Standalone** (user invoked `/craft` directly): Return the edited text and stop. Do not invoke polish.
+- **Standalone** (user invoked `/craft` directly): Return the edited text and stop. Do not invoke polish. End the response with: **Next:** `/polish` for the final scan.
 - **Pipeline** (meta-skill is running the full pipeline): The meta-skill handles routing — it will invoke `polish` next on your output. Do not chain yourself.

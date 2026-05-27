@@ -49,5 +49,5 @@ For the full 12-row table covering hyphens, parentheses vs em dashes, ellipses, 
 
 Polish is the terminal phase — there is no next phase to invoke regardless of caller.
 
-- **Standalone** (user invoked `/polish` directly): Return the polished text and stop.
+- **Standalone** (user invoked `/polish` directly): Return the polished text and stop. End the response with: **Done.** Polish is the terminal phase.
 - **Pipeline** (invoked from `/shape`): Return the polished text plus a brief summary — count of punctuation corrections, sentences cut, and any notable structural changes made by polish.

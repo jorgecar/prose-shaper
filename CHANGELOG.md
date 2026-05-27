@@ -4,6 +4,12 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-05-27
+
+### Changed
+
+- Each phase skill's standalone hand-off now ends with a one-line recommendation pointing to the next step in the pipeline (`/assess` → `/clarity`; `/clarity` → `/flow`; `/flow` → `/craft` or `/polish`; `/craft` → `/polish`; `/polish` → done). Pipeline-mode behavior is unchanged.
+
 ## [0.2.0] — 2026-05-27
 
 ### Added

@@ -58,5 +58,5 @@ For paragraph-level before/after demonstrations, see references/examples.md.
 
 ## Hand-off
 
-- **Standalone** (user invoked `/flow` directly): Return the edited text and stop. Do not invoke other phases.
+- **Standalone** (user invoked `/flow` directly): Return the edited text and stop. Do not invoke other phases. End the response with: **Next:** `/craft` if the register is persuasive; otherwise `/polish`.
 - **Pipeline** (meta-skill is running the full pipeline): The meta-skill handles routing — it will invoke `craft` if the register is persuasive, otherwise `polish`. Do not chain yourself.
