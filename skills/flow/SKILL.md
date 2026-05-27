@@ -13,11 +13,13 @@ Sentences of identical length numb the reader; parallel structure makes related 
 
 ## Procedure
 
-1. **Scan sentence lengths.** Read the passage aloud. Uniform length numbs; alternating short and long creates pulse. Break a long sentence or merge short fragments as rhythm demands.
-2. **Find verdicts and reframe with evidence.** Every `X is bad/slow/broken` is a verdict. Replace it: show the cost, the delay, the failure — let the reader name the problem.
-3. **Find parallel ideas; apply parallel structure.** If three items share a relationship, give them the same grammatical form. Mismatched parallels make the reader re-parse.
-4. **Move the heaviest word last.** The end of a sentence is the emphasis position. Bury the key noun or verb there, not in the middle.
-5. **Replace abstractions with the most specific detail you have.** `a lot` → the number; `recently` → the date; `someone` → the person; `a problem` → the exact failure.
+1. **Map the document.** Before fixing sentences, check the shape of the whole. The first paragraph should give the reader a map — what they're reading, why it matters, what to do. If the lede is buried below context-setting, hoist it. Lead with ownership: the data that's *yours*, not the data you happen to have. (`Here's my analysis of the full bandwidth forecast` → `99.4% is media. CMS owns ~0.6%.`)
+2. **Vary sentence lengths.** Read the passage aloud. Uniform length numbs; alternating short and long creates pulse. Break a long sentence or merge short fragments as rhythm demands. **Skip this step for technical register** — technical prose values uniformity over rhythmic variation. Steps 3-7 still apply.
+3. **Show through evidence, not verdicts.** Every `X is bad/slow/broken` is a verdict — replace it with the cost, delay, or failure that lets the reader draw the conclusion herself. Same rule for interior labels: `extremely nervous` becomes `my keys rattled like they wanted out`. Act, don't tell.
+4. **Find parallel ideas; apply parallel structure.** If three items share a relationship, give them the same grammatical form. Mismatched parallels make the reader re-parse.
+5. **Cut across expectation.** When a sentence concedes with `X, but Y`, split it. `People assume writing is talent, but it's mostly patience` → `People think writing is talent. It's patience.` The break does the work the conjunction was hiding.
+6. **Move the heaviest word last.** The end of a sentence is the emphasis position. Bury the key noun or verb there, not in the middle.
+7. **Replace abstractions with the most specific detail you have.** `a lot` → the number; `recently` → the date; `someone` → the person; `a problem` → the exact failure.
 
 ---
 

@@ -15,9 +15,11 @@ Warm-ups, hedges, and nominalizations are the same problem: they defer meaning. 
 
 1. **Cut warm-ups.** Delete any opening sentence that delays the point ("Today I'd like to discuss…", "Before we begin…", "This document aims to…").
 2. **Strip hedging.** Remove `kind of`, `might`, `perhaps`, `we think`, `it seems`, `somewhat` — unless the uncertainty is real and the reader needs to know it.
-3. **Convert nominalizations.** Turn noun-stacks back into verbs: `did a review of` → `reviewed`; `made a decision` → `decided`; `had a discussion about` → `discussed`.
-4. **Replace "to be" verbs.** When the actor is known, swap `is/are/was/were` for the verb that shows the action: `the report was created by Ana` → `Ana wrote the report`.
-5. **Swap vague nouns for concrete ones.** `outcome`, `solution`, `approach`, `things`, `aspects` — replace each with the most specific noun available.
+3. **Cut needless words and intensifying adverbs.** Drop `very`, `really`, `quite`, `actually`, `basically`, `essentially`, `extremely`, and any modifier propping up a weak verb (`said excitedly` → rewrite the action). If a sentence still says what it needs to say without the word, the word is needless.
+4. **Replace jargon and cliches with plain, specific words.** Swap `endeavor to facilitate an optimal outcome` for `try to get a good result`. Replace stock phrases (`at the end of the day`, `low-hanging fruit`, `move the needle`, `dead silent`) with literal alternatives that name what's actually happening (`forks stopped halfway to mouths`).
+5. **Convert nominalizations.** Turn noun-stacks back into verbs: `did a review of` → `reviewed`; `made a decision` → `decided`; `had a discussion about` → `discussed`.
+6. **Replace "to be" verbs.** When the actor is known, swap `is/are/was/were` for the verb that shows the action: `the report was created by Ana` → `Ana wrote the report`.
+7. **Swap vague nouns for concrete ones.** `outcome`, `solution`, `approach`, `things`, `aspects` — replace each with the most specific noun available.
 
 ---
 

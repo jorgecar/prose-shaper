@@ -14,11 +14,14 @@ Persuasion fails when it argues instead of shows. A single true, specific senten
 ## Procedure
 
 1. **Register gate.** Check the register block from `assess`. If `register != persuasive`, do not edit. Persuasive moves applied to the wrong register produce worse writing: antithesis in an ADR reads as preening; prolepsis in a meeting note reads as defensive. Output exactly: "Craft skipped — register is <value>, not persuasive." Then stop.
-2. **One true sentence.** Find one claim that can become a single, true, specific sentence. Replace the vague claim with it.
-3. **Surprise detail.** Identify the strongest counterintuitive or unexpected detail; surface it where it will land hardest.
-4. **Antithesis.** Look for parallel oppositions; sharpen them into tight antithetical constructions.
-5. **Prolepsis.** Find the reader's most likely objection; preempt it with a direct acknowledgment and reframe.
-6. **Cut decoration.** Remove any move that does not move the reader closer to yes. Each rhetorical device must earn its place.
+2. **Open at the change.** Start late — enter at the moment of movement, not the windup. Lead with ownership: name the data that's yours, not the data you happen to have. (`It was a normal Tuesday. I made coffee...` → `At 9:17, my manager wrote: "We need to talk."`) The reader meets your point, not your throat-clearing.
+3. **One true sentence.** Find one claim that can become a single, true, specific sentence. Replace the vague claim with it.
+4. **Surprise detail.** Identify the strongest counterintuitive or unexpected detail; surface it where it will land hardest.
+5. **Antithesis.** Look for parallel oppositions; sharpen them into tight antithetical constructions.
+6. **Prolepsis.** Find the reader's most likely objection; preempt it with a direct acknowledgment and reframe.
+7. **Let dialogue do work.** Where a direct quote or exchange compresses an entire paragraph of summary, use it. `The team disagreed about the feature` → `"Ship it." / "Over my dead laptop."` Two voices, one decision, no narration.
+8. **Small paragraphs as stories.** A short paragraph can carry a three-beat micro-story: setup, turn, landing. `Write every day. Most days will be dull. Then one won't.` Short paragraphs pivot harder than long ones.
+9. **Cut decoration.** Remove any move that does not move the reader closer to yes. Each rhetorical device must earn its place.
 
 ---
 

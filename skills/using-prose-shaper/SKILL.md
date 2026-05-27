@@ -59,7 +59,8 @@ Do not paraphrase or summarize the block. Read it line by line and act on the li
 
 ### Phase routing
 
-- `clarity`, `flow`, `polish`: always run, in order. Never skip these.
+- `clarity`, `polish`: always run.
+- `flow`: always run, but register-aware. For `register == technical`, flow's rhythm-variation step (procedure step 2) is skipped — technical prose values uniformity over rhythmic variation. All other flow steps (structure mapping, evidence, parallelism, weight-last, concreteness) still apply.
 - `craft`: run only if `register == persuasive` per the rule above. Otherwise emit `"Craft skipped — register: <value>"` and proceed to polish.
 
 ### What each phase receives
@@ -107,3 +108,23 @@ After the full pipeline, return:
 - craft: <moves applied, or "skipped — register: professional">
 - polish: <issues caught, or "no issues found">
 ```
+
+## Worked Example
+
+A meeting-note excerpt taken through the full pipeline. Register detected as professional, so craft is skipped.
+
+**Before:**
+
+> Today we had a discussion about the implementation of the new authentication system. The team expressed concerns about the timeline. There was a general feeling that the deadline might be too aggressive. We made a decision to do a reassessment of the scope and will be having a follow-up meeting next week.
+
+**After:**
+
+> The team flagged the authentication timeline as too tight. Three of four engineers estimated two extra sprints beyond the deadline. We agreed to cut OAuth from v1 and revisit scope on Monday.
+
+**Phase log:**
+
+- **assess** — register: professional; audience: team leads; intent: capture decisions and next steps; smells: warm-up, hedge, nominalization, buried-lede.
+- **clarity** — cut warm-up ("Today we had"), hedging ("might be"), needless words ("general feeling that"); converted nominalizations: "had a discussion" → "flagged", "made a decision to do a reassessment" → "agreed to cut".
+- **flow** — mapped the document so the load-bearing fact leads; shortened sentences; replaced the verdict ("too aggressive") with a frame ("two extra sprints beyond the deadline"); moved the specific number ("three of four engineers") forward.
+- **craft** — skipped (register: professional, not persuasive).
+- **polish** — cut the vague closing ("will be having a follow-up meeting next week"), replaced with specific action and day ("revisit scope on Monday").
