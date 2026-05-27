@@ -1,6 +1,6 @@
 ---
 name: assess
-description: Tells the user what's wrong with their draft before any edits are made. Use whenever the user shares writing and wants a diagnosis — not changes — naming the register (technical / professional / persuasive), audience, intent, and the specific problems (warm-ups, hedging, buried lede, tonal mismatch, weak evidence). Trigger on: "what do you think of this?", "does this land?", "review my draft", "is this the right tone?", "assess this", "gut-check this", "what's wrong here?", "is this any good?". For requests that ask for changes ("fix this", "tighten this", "rewrite this"), prefer /clarity or /shape instead — assess only diagnoses, it never edits. Keywords: assess, diagnose, gut-check, register, audience, feedback, what's wrong, review.
+description: Tells the user what's wrong with their draft before any edits are made. Use whenever the user shares writing and wants a diagnosis — not changes — naming the register (technical / professional / persuasive), audience, intent, and the specific problems (warm-ups, hedging, buried lede, tonal mismatch, weak evidence). Trigger on — "what do you think of this?", "does this land?", "review my draft", "is this the right tone?", "assess this", "gut-check this", "what's wrong here?", "is this any good?". For requests that ask for changes ("fix this", "tighten this", "rewrite this"), prefer /clarity or /shape instead — assess only diagnoses, it never edits. Keywords — assess, diagnose, gut-check, register, audience, feedback, what's wrong, review.
 ---
 
 # Assess

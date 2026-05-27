@@ -1,6 +1,6 @@
 ---
 name: clarity
-description: Cuts the fat from a draft so the point arrives. Use whenever the user feels their writing is bloated, wordy, hedged, passive, or academic — and wants it tightened without changing the meaning. Removes warm-ups, hedges, nominalizations, weak "to be" verbs, and vague nouns. Trigger on: "tighten this", "cut the fluff", "make this cleaner", "less wordy", "simplify this", "too passive", "this is too long", "trim this", "make it punchier". For full-draft overhauls, prefer /shape. For choppy rhythm or weak persuasion, prefer /flow or /craft — clarity only addresses bloat. Keywords: clarity, tighten, trim, concise, cut fluff, passive voice, nominalization, wordy.
+description: Cuts the fat from a draft so the point arrives. Use whenever the user feels their writing is bloated, wordy, hedged, passive, or academic — and wants it tightened without changing the meaning. Removes warm-ups, hedges, nominalizations, weak "to be" verbs, and vague nouns. Trigger on — "tighten this", "cut the fluff", "make this cleaner", "less wordy", "simplify this", "too passive", "this is too long", "trim this", "make it punchier". For full-draft overhauls, prefer /shape. For choppy rhythm or weak persuasion, prefer /flow or /craft — clarity only addresses bloat. Keywords — clarity, tighten, trim, concise, cut fluff, passive voice, nominalization, wordy.
 ---
 
 # Clarity

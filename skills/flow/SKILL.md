@@ -1,6 +1,6 @@
 ---
 name: flow
-description: Fixes prose that sounds choppy, flat, or monotonous — even when each sentence is grammatically correct. Use when the user says their writing reads robotic, all the sentences are the same length, ideas don't connect, or the rhythm is off. Varies sentence length, enforces parallel structure, moves the heaviest word to the end of each sentence, and trades bare verdicts for evidence the reader can verify. Trigger on: "make it flow", "feels choppy", "improve the rhythm", "sounds robotic", "sentence variety", "parallel structure", "reads flat", "doesn't connect". For wordiness or hedging, prefer /clarity. For persuasive sharpening, prefer /craft. Keywords: flow, rhythm, choppy, parallel, sentence variety, weight-last, evidence.
+description: Fixes prose that sounds choppy, flat, or monotonous — even when each sentence is grammatically correct. Use when the user says their writing reads robotic, all the sentences are the same length, ideas don't connect, or the rhythm is off. Varies sentence length, enforces parallel structure, moves the heaviest word to the end of each sentence, and trades bare verdicts for evidence the reader can verify. Trigger on — "make it flow", "feels choppy", "improve the rhythm", "sounds robotic", "sentence variety", "parallel structure", "reads flat", "doesn't connect". For wordiness or hedging, prefer /clarity. For persuasive sharpening, prefer /craft. Keywords — flow, rhythm, choppy, parallel, sentence variety, weight-last, evidence.
 ---
 
 # Flow
