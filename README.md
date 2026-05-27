@@ -2,6 +2,15 @@
 
 **Rough drafts to ready-to-send prose — in one command.**
 
+```
+   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐
+   │ assess  │ ▸ │ clarity │ ▸ │  flow   │ ▸ │ craft*  │ ▸ │ polish  │
+   └─────────┘   └─────────┘   └─────────┘   └─────────┘   └─────────┘
+    diagnose      tighten       smooth        sharpen       proof
+```
+
+> `*` craft runs only when the register is persuasive
+
 The email you didn't have time to rewrite. The ADR that reads like a memo. The pitch that buries the point on line four. Paste it, run `/shape`, and get back something you actually want to send.
 
 Works on emails, docs, ADRs, pitches, fiction — any prose where the words matter more than the format.
