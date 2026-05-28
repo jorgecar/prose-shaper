@@ -4,6 +4,8 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+## [0.3.0] — 2026-05-28
+
 ### Added
 
 - `flow`: three new procedure steps — "Connect each sentence old-to-new" and "Keep the topic string consistent" (sentence- and passage-level cohesion), and "Shape long sentences" (get to the verb early; extend with resumptive/summative/free modifiers instead of clause-piling). "Map the document" now also frames the opening as a problem (condition + cost) ending on the point.

@@ -1,7 +1,7 @@
 {
   "name": "prose-shaper",
   "description": "Shape any prose through a five-phase pipeline — assess, clarity, flow, craft, polish. Works on emails, docs, ADRs, pitches, fiction.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": {
     "name": "Jorge Carballo",
     "email": "carbajorge@gmail.com"
