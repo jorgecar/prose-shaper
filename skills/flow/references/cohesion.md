@@ -16,7 +16,7 @@ The Good version opens its second sentence on *that increase* — the idea the f
 
 Two sub-points:
 
-**(a) The passive is sometimes the right choice.** It is right exactly when it keeps the familiar subject at the front. If the previous sentence ended on *the cache*, prefer the passive `The cache is populated by a nightly job` over the active `A nightly job populates the cache`, which hoists a brand-new actor into first position and breaks the connection. Voice serves cohesion, not the other way around.
+**(a) The passive is sometimes the right choice — exactly when it keeps the familiar subject at the front.** If the previous sentence ended on *the cache*, prefer the passive `The cache is populated by a nightly job` over the active `A nightly job populates the cache`, which hoists a brand-new actor into first position and breaks the connection. Voice serves cohesion, not the other way around.
 
 **(b) Strip the throat-clearing.** Transitions, attitude markers, and time words piled in front of the subject delay the reader's arrival at the topic. Cut or move them so the familiar idea lands first: `Importantly, in most cases, as of last week, the build was already failing` → `By last week the build was already failing.`
 

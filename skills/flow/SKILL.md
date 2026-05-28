@@ -7,7 +7,7 @@ description: Fixes prose that sounds choppy, flat, or monotonous — even when e
 
 ## Why this phase matters
 
-Sentences of identical length numb the reader; parallel structure makes related ideas feel related; the heaviest word belongs at the end. But connection outranks rhythm: a passage flows when each sentence opens on something the reader already knows and closes on what's new, when its subjects keep naming the same handful of ideas, and when even a long sentence reaches its verb early instead of sprawling. When every sentence leads with a verdict ("This is inefficient"), the writing lectures. Reframe as a setup-and-revelation ("Teams spend three hours per deploy — all of it waiting") and the reader draws the conclusion herself.
+Sentences of identical length numb the reader; parallel structure makes related ideas feel related; the heaviest word belongs at the end. But connection outranks rhythm. A passage flows when each sentence opens on what the reader already knows and closes on what's new, when its subjects name the same handful of ideas throughout, and when even a long sentence reaches its verb early. When every sentence leads with a verdict ("This is inefficient"), the writing lectures. Reframe as a setup-and-revelation ("Teams spend three hours per deploy — all of it waiting") and the reader draws the conclusion herself.
 
 ---
 
