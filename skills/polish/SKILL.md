@@ -49,5 +49,6 @@ For the full 12-row table covering hyphens, parentheses vs em dashes, ellipses, 
 
 Polish is the terminal phase — there is no next phase to invoke regardless of caller.
 
+- **File Mode** (invoked on a file on disk): before writing, enter plan mode and show the whole-document before→after diff plus why; write the file only after the user approves. See `../shared/file-mode.md`.
 - **Standalone** (user invoked `/polish` directly): Return the polished text and stop. End the response with: **Done.** Polish is the terminal phase.
 - **Pipeline** (invoked from `/shape`): Return the polished text plus a brief summary — count of punctuation corrections, sentences cut, and any notable structural changes made by polish.

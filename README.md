@@ -37,6 +37,13 @@ Or call a single phase:
 /polish       # final punctuation + scan
 ```
 
+## Working with files
+
+Point any command at a file instead of pasting, and prose-shaper won't overwrite it
+silently. It shapes the draft, then opens **plan mode** showing the whole-document
+before→after diff and why each change was made — it writes the file only after you approve.
+This holds even in auto-accept mode. Pasting text into chat works exactly as before.
+
 ## What you get
 
 | When you need to... | Run this | What changes |

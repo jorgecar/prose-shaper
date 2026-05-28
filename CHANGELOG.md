@@ -4,6 +4,12 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-05-28
+
+### Added
+
+- File Mode: when a draft is read from a file on disk, prose-shaper now enters plan mode to present the whole-document before→after diff and the rationale, and writes the file only after the user approves — pasted-in-chat text is unaffected. Defined once in `skills/shared/file-mode.md`, wired into the `using-prose-shaper` orchestrator and the `clarity`/`flow`/`craft`/`polish` standalone hand-offs (`assess` is exempt — it never edits).
+
 ## [0.3.0] — 2026-05-28
 
 ### Added

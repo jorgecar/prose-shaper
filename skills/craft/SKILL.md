@@ -51,5 +51,6 @@ For deeper guidance on each move, see `references/rhetorical-moves.md`.
 
 ## Hand-off
 
+- **File Mode** (invoked on a file on disk): before writing, enter plan mode and show the whole-document before→after diff plus why; write the file only after the user approves. See `../shared/file-mode.md`.
 - **Standalone** (user invoked `/craft` directly): Return the edited text and stop. Do not invoke polish. End the response with: **Next:** `/polish` for the final scan.
 - **Pipeline** (meta-skill is running the full pipeline): The meta-skill handles routing — it will invoke `polish` next on your output. Do not chain yourself.

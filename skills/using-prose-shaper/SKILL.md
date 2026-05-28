@@ -83,6 +83,7 @@ The `<assess-meta>` block is metadata. It is read once by this skill to make rou
 5. If a phase finds nothing to improve, say so explicitly. Do not manufacture changes.
 6. Preserve the author's meaning. The pipeline improves form, not content.
 7. Show changes inline or as a diff when the text is short enough to read. For long texts, show a before/after summary per phase.
+8. **File Mode.** When the draft comes from a file on disk (not pasted into chat), do not overwrite it silently. Run the full pipeline in memory, then enter plan mode once to present the whole-document before→after diff and the phase log, and write the file only after the user approves. Follow the shared contract in `../shared/file-mode.md`.
 
 ## When NOT to Use
 
@@ -93,7 +94,7 @@ The `<assess-meta>` block is metadata. It is read once by this skill to make rou
 
 ## Output Format
 
-After the full pipeline, return:
+In File Mode (draft read from a file), present the shaped text and phase log inside plan mode for approval, then write them back to the file — see operating behavior 8. Otherwise, after the full pipeline, return:
 
 ```
 ## Shaped Text
