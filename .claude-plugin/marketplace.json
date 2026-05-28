@@ -4,7 +4,7 @@
     "name": "Jorge Carballo"
   },
   "metadata": {
-    "description": "Five-phase writing pipeline for Claude Code: assess, clarity, flow, craft, polish."
+    "description": "Five-phase writing pipeline for Claude Code (assess, clarity, flow, craft, polish), with a plan-mode preview of every edit before it's written to a file."
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "jorgecar/prose-shaper"
       },
-      "description": "Shape any prose through a five-phase pipeline."
+      "description": "Shape any prose through a five-phase pipeline — and preview every file edit in plan mode before it's written."
     }
   ]
 }
