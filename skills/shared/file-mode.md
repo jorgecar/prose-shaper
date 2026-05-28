@@ -10,8 +10,8 @@ explicit mode switch, the review holds even under `acceptEdits` / `bypassPermiss
 
 ## When File Mode applies
 
-In effect whenever the prose being shaped was read from a file on disk — the user names or
-points to a file path, or you `Read` a file to get the text. Prose pasted directly into
+In effect whenever the prose came from a file on disk — the user names or points to a file
+path, or you `Read` a file to get the text. Prose pasted directly into
 the chat is **not** File Mode: behave as before (return the result in chat; write nothing).
 
 ## The loop
@@ -46,5 +46,5 @@ not a lock.
   or write the file.
 - **Multiple files:** present one plan per file, or a combined plan clearly segmented by
   path; write each only after its changes are approved.
-- **Quotes, code blocks, tables:** unchanged by the editing phases, so they appear
-  unchanged in the diff.
+- **Quotes, code blocks, tables:** the editing phases leave these untouched, so the diff
+  shows them as-is.
