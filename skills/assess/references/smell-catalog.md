@@ -1,6 +1,6 @@
 # Smell Catalog
 
-Full definitions and detection rules for the nine smell tags used by `assess`.
+Full definitions and detection rules for the eleven smell tags used by `assess`.
 
 ---
 
@@ -40,7 +40,7 @@ Full definitions and detection rules for the nine smell tags used by `assess`.
 
 **Example:** Three paragraphs of background, then: "For these reasons, we recommend canceling the project."
 
-**Detection rule:** Ask: "What is the one thing this document must communicate?" If that thing does not appear in the first two sentences or the opening block, the lede is buried.
+**Detection rule:** Ask: "What is the one thing this document must communicate?" If that thing does not appear in the first two sentences or the opening block, the lede is buried. This applies at every level: the point belongs at the end of the opening segment of the document, and of each section and long paragraph — not only the document's.
 
 ---
 
@@ -60,7 +60,7 @@ Full definitions and detection rules for the nine smell tags used by `assess`.
 
 **Example:** "It is recommended that the timeline be revised." / "Approval has been granted."
 
-**Detection rule:** Look for "it is [past-tense verb]", "has been [verb]", "will be [verb]" — then ask: by whom? If the answer matters and is missing, flag it. (Note: passive voice is not always a smell — only flag when the missing agent changes meaning or accountability.)
+**Detection rule:** Look for "it is [past-tense verb]", "has been [verb]", "will be [verb]" — then ask: by whom? If the answer matters and is missing, flag it. (Note: passive voice is not always a smell — only flag when the missing agent changes meaning or accountability.) Especially, leave the passive when it keeps familiar information at the start of the sentence and new information at the end; that cohesion is worth more than the active voice (see `skills/flow/references/cohesion.md`).
 
 ---
 
@@ -93,6 +93,26 @@ Full definitions and detection rules for the nine smell tags used by `assess`.
 **Example:** A 200-word paragraph covering background, rationale, three risks, and a recommendation — without a single break, list, or heading.
 
 **Detection rule:** Flag any prose paragraph over ~80 words that contains more than one logical claim. (Exception: deliberate narrative prose where flow is the goal — but flag it anyway if the document type is professional or technical.)
+
+---
+
+## `topic-drift`
+
+**Definition:** Across a run of sentences, the grammatical subjects name an unrelated or constantly shifting set of ideas. Each sentence can be clear on its own, yet the passage feels disorganized because the reader cannot track a consistent topic.
+
+**Example:** "The cache holds responses for 24 hours. Writes don't trigger invalidation. Stale data is what users end up seeing." (subjects: *the cache* / *writes* / *stale data*)
+
+**Detection rule:** Underline the first few words — up to the verb — of each sentence in a passage. If those words don't form a small, related set (and don't name the passage's main characters), the topic string has drifted. Distinct from `wall-of-text`, which is about length and idea-count; `topic-drift` is about subject *consistency*.
+
+---
+
+## `sentence-sprawl`
+
+**Definition:** A single sentence is hard to follow because its main verb arrives late — buried behind a long introductory clause or a long abstract subject — or because it chains one relative clause onto another after the verb.
+
+**Example:** "The proposal that the steering committee drafted after three months of stakeholder interviews and two rounds of legal review, over the finance team's objections, was finally rejected." (nineteen words before the main verb *was rejected*)
+
+**Detection rule:** Flag a sentence when the reader passes roughly eight or more words before reaching the main subject and verb, or when three or more `which`/`that`/`who` clauses hang off the end. Distinct from `wall-of-text` (a whole paragraph of many ideas) and `topic-drift` (subjects shifting across sentences) — `sentence-sprawl` is one over-built sentence.
 
 ---
 

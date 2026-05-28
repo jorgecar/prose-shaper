@@ -56,6 +56,8 @@ Then below the block, write a brief diagnostic report.
 | `register-mismatch` | Persuasive moves in a technical doc, or vice versa |
 | `cliche` | Stock phrasing that adds nothing |
 | `wall-of-text` | One unbroken paragraph carrying many ideas |
+| `topic-drift` | Sentence subjects jump around, so a passage won't cohere even when each sentence is clean |
+| `sentence-sprawl` | One sentence buries its main verb behind a long opener or subject, or chains relative clauses |
 
 See `references/smell-catalog.md` for full definitions and detection rules.
 
