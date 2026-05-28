@@ -22,6 +22,7 @@ The wrong/good pair patterns and the principles they illustrate are influenced b
 - William Zinsser, *On Writing Well* (1976)
 - Stephen King, *On Writing* (2000)
 - Ernest Hemingway, "one true sentence" guidance (paraphrased from *A Moveable Feast*, 1964)
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace* (cohesion / old-before-new, topic strings, global coherence, and sentence shape)
 
 No verbatim text from copyrighted works is reproduced. Examples are original constructions illustrating the same principles.
 

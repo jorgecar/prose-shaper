@@ -4,6 +4,21 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- `flow`: three new procedure steps — "Connect each sentence old-to-new" and "Keep the topic string consistent" (sentence- and passage-level cohesion), and "Shape long sentences" (get to the verb early; extend with resumptive/summative/free modifiers instead of clause-piling). "Map the document" now also frames the opening as a problem (condition + cost) ending on the point.
+- `flow`: two reference files — `references/cohesion.md` (old-before-new, topic strings, whole-document coherence) and `references/sentence-shape.md` (long-sentence architecture), with original before/after examples.
+- `assess`: two new smells — `topic-drift` (inconsistent topic string) and `sentence-sprawl` (a single over-built sentence) — with full entries in the smell catalog.
+
+### Changed
+
+- `clarity`: the "replace to-be / passive" step now keeps a passive when flipping it would push unfamiliar information to the front (cohesion outranks the active voice).
+- `assess`: `buried-lede` and `passive-agent` catalog entries clarified — the point belongs at the end of every opening segment; a passive can be the right choice when it preserves old-before-new flow.
+
+### Attribution
+
+- Added Joseph M. Williams, *Style: Lessons in Clarity and Grace*, as an influence.
+
 ## [0.2.1] — 2026-05-27
 
 ### Changed

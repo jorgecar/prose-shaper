@@ -44,7 +44,7 @@ Or call a single phase:
 | Send the whole draft out **today** | `/shape` | Rough text comes back tight, structured, ready to send |
 | Know what's wrong **before** you rewrite | `/assess` | A diagnosis — tone, audience, what's broken. No edits. |
 | Cut a draft that's **too long** | `/clarity` | Warm-ups gone, hedges cut, weak verbs replaced |
-| Smooth prose that reads **choppy** | `/flow` | Sentence variety, parallel structure, key word at the end |
+| Smooth prose that reads **choppy** | `/flow` | Sentences that connect, consistent topic, variety, key word at the end |
 | Sharpen a pitch that **doesn't land** | `/craft` | Rhetorical moves added — when you need to move someone |
 | Catch the last things **before send** | `/polish` | Punctuation cleaned, every sentence earning its place |
 
@@ -54,7 +54,7 @@ prose-shaper runs your draft through five passes, each fixing one kind of proble
 
 1. **assess** — names the register (technical, professional, persuasive), audience, and intent. Flags the smells.
 2. **clarity** — cuts warm-ups, hedging, nominalizations; trades "to be" for action verbs.
-3. **flow** — varies sentence length, enforces parallel structure, moves the heaviest word to the end.
+3. **flow** — connects each sentence to the last, keeps a consistent topic string, varies sentence length, shapes long sentences, and moves the heaviest word to the end.
 4. **craft** — applies persuasive moves (skipped automatically if the register isn't persuasive).
 5. **polish** — fixes punctuation and runs a final scan where every sentence earns rent.
 
