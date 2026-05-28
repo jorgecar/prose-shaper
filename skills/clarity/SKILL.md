@@ -18,7 +18,7 @@ Warm-ups, hedges, and nominalizations are the same problem: they defer meaning. 
 3. **Cut needless words and intensifying adverbs.** Drop `very`, `really`, `quite`, `actually`, `basically`, `essentially`, `extremely`, and any modifier propping up a weak verb (`said excitedly` → rewrite the action). If a sentence still says what it needs to say without the word, the word is needless.
 4. **Replace jargon and cliches with plain, specific words.** Swap `endeavor to facilitate an optimal outcome` for `try to get a good result`. Replace stock phrases (`at the end of the day`, `low-hanging fruit`, `move the needle`, `dead silent`) with literal alternatives that name what's actually happening (`forks stopped halfway to mouths`).
 5. **Convert nominalizations.** Turn noun-stacks back into verbs: `did a review of` → `reviewed`; `made a decision` → `decided`; `had a discussion about` → `discussed`.
-6. **Replace "to be" verbs.** When the actor is known, swap `is/are/was/were` for the verb that shows the action: `the report was created by Ana` → `Ana wrote the report`.
+6. **Replace "to be" verbs.** When the actor is known, swap `is/are/was/were` for the verb that shows the action: `the report was created by Ana` → `Ana wrote the report`. Keep the passive, though, when the active version would force unfamiliar information to the front of the sentence: if the previous sentence ended on *the cache*, write `The cache is populated by a nightly job` rather than hoisting a new actor ahead of it — cohesion outranks the active voice (see ../flow/references/cohesion.md).
 7. **Swap vague nouns for concrete ones.** `outcome`, `solution`, `approach`, `things`, `aspects` — replace each with the most specific noun available.
 
 ---
@@ -43,6 +43,7 @@ For paragraph-level before/after demonstrations, see references/examples.md.
 - **Quoted material:** never edit — reproduce the source exactly.
 - **Real uncertainty:** `may` and `might` are valid when the uncertainty is material and the reader must account for it. Strip hedges that perform doubt without adding information.
 - **Tables, schemas, code blocks:** skip this phase entirely for those elements.
+- **Passive that serves flow:** don't flip a passive to active when the passive keeps old information first and new information last — that connection matters more than the voice (see `/flow`).
 
 ---
 
