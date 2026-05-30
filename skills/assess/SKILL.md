@@ -1,6 +1,6 @@
 ---
 name: assess
-description: Tells the user what's wrong with their draft before any edits are made. Use whenever the user shares writing and wants a diagnosis — not changes — naming the register (technical / professional / persuasive), audience, intent, and the specific problems (warm-ups, hedging, buried lede, tonal mismatch, weak evidence). Trigger on — "what do you think of this?", "does this land?", "review my draft", "is this the right tone?", "assess this", "gut-check this", "what's wrong here?", "is this any good?". For requests that ask for changes ("fix this", "tighten this", "rewrite this"), prefer /clarity or /shape instead — assess only diagnoses, it never edits. Keywords — assess, diagnose, gut-check, register, audience, feedback, what's wrong, review.
+description: Tells the user what's wrong with their draft before any edits are made. Use whenever the user shares writing and wants a diagnosis — not changes — naming the register (technical / professional / persuasive), audience, intent, and the specific problems (warm-ups, hedging, buried lede, tonal mismatch, weak evidence, supports that don't add up, section headings that say nothing). Trigger on — "what do you think of this?", "does this land?", "review my draft", "is this the right tone?", "assess this", "gut-check this", "what's wrong here?", "is this any good?", "is my structure right?", "do my sections support the point?", "are my section headings doing any work?". For requests that ask for changes ("fix this", "tighten this", "rewrite this"), prefer /clarity or /shape instead — assess only diagnoses, it never edits. Keywords — assess, diagnose, gut-check, register, audience, feedback, what's wrong, review, structure, grouping, MECE, section headings, supports, governing thought.
 ---
 
 # Assess
@@ -58,6 +58,8 @@ Then below the block, write a brief diagnostic report.
 | `wall-of-text` | One unbroken paragraph carrying many ideas |
 | `topic-drift` | Sentence subjects jump around, so a passage won't cohere even when each sentence is clean |
 | `sentence-sprawl` | One sentence buries its main verb behind a long opener or subject, or chains relative clauses |
+| `ungrouped-supports` | The themes under a claim don't form a parallel set of supports — they overlap, restate one another, or leave a gap |
+| `blank-label` | A section heading or topic sentence names the topic but doesn't say anything about it |
 
 See `references/smell-catalog.md` for full definitions and detection rules.
 

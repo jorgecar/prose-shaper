@@ -1,6 +1,6 @@
 # Smell Catalog
 
-Full definitions and detection rules for the eleven smell tags used by `assess`.
+Full definitions and detection rules for the thirteen smell tags used by `assess`.
 
 ---
 
@@ -113,6 +113,26 @@ Full definitions and detection rules for the eleven smell tags used by `assess`.
 **Example:** "The proposal that the steering committee drafted after three months of stakeholder interviews and two rounds of legal review, over the finance team's objections, was finally rejected." (nineteen words before the main verb *was rejected*)
 
 **Detection rule:** Flag a sentence when the reader passes roughly eight or more words before reaching the main subject and verb, or when three or more `which`/`that`/`who` clauses hang off the end. Distinct from `wall-of-text` (a whole paragraph of many ideas) and `topic-drift` (subjects shifting across sentences) — `sentence-sprawl` is one over-built sentence.
+
+---
+
+## `ungrouped-supports`
+
+**Definition:** The supporting ideas under a claim don't share a parallel relationship to it. The themes either overlap (two themes restate the same support, padding the case), or they leave a gap (the themes together do not cover what the claim depends on). The reader can follow each support individually but cannot see them as a set that proves the claim.
+
+**Example:** "We should adopt the new build system because it caches dependencies, it parallelizes test runs, it cuts CI time, and it speeds up the pipeline." — The first two themes are causes; the last two are the same effect restated as causes. The supports are not a parallel set.
+
+**Detection rule:** List each section heading or topic sentence under the document's lede (or each support under a paragraph's topic sentence). Ask: do they form a parallel set of supports for the same claim? If two restate one idea, or if the claim depends on something none of them covers, the supports are ungrouped. Distinct from `topic-drift` (sentence-subject scatter across a passage) — `ungrouped-supports` is *idea-grouping* at section scale.
+
+---
+
+## `blank-label`
+
+**Definition:** A section heading or topic sentence names the category of content that follows ("Background", "Issues", "Findings", "There are several considerations") without saying anything about it. The reader who skims headings or first sentences learns the document's table of contents but not its argument.
+
+**Example:** Heading: `Issues with the cache layer.` (Tells the reader what the section is *about*; does not tell them what the section *says*.) Repair: `The cache layer adds two days of work and removes one source of stale reads.`
+
+**Detection rule:** Read the heading or topic sentence alone, with no surrounding context. Does it state a conclusion the reader could agree or disagree with? If not — if it only names a topic — it's blank. A complete-thought summary has a subject, a verb, and a point.
 
 ---
 
