@@ -4,6 +4,8 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+## [0.5.0] — 2026-05-30
+
 ### Added
 
 - `craft`: Forsyth rhetorical figures catalog — ~30 named figures (anaphora, chiasmus, anadiplosis, litotes, and more) as a load-on-demand reference for cases the six core moves don't reach.
