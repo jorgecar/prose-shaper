@@ -22,6 +22,8 @@ When adding reference content the agent will navigate (figures, smells, moves, g
 - **Every frontmatter field must earn its place.** Don't add fields for completeness or attribution traceability. If the `description` already carries it, the field is duplicative.
 - **Integrate, don't drop.** A new `references/` file isn't done until the SKILL.md procedure mentions when to reach for it and pointer paragraphs explain the discovery flow.
 
+Full workflow for integrating a new reference source: see `CONTRIBUTING.md § Integrating a new source`.
+
 ## Documentation
 
 In `CHANGELOG.md`, `ATTRIBUTION.md`, and the plugin/README descriptions: match the length and texture of existing peer entries. Describe what changed for the reader, not how it was wired. Skip implementation detail (file paths, frontmatter schemas, "and ~27 others" counts) unless a peer entry sets that precedent.
