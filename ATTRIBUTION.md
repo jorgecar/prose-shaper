@@ -23,6 +23,7 @@ The wrong/good pair patterns and the principles they illustrate are influenced b
 - Stephen King, *On Writing* (2000)
 - Ernest Hemingway, "one true sentence" guidance (paraphrased from *A Moveable Feast*, 1964)
 - Joseph M. Williams, *Style: Lessons in Clarity and Grace* (cohesion / old-before-new, topic strings, global coherence, and sentence shape)
+- Mark Forsyth, *The Elements of Eloquence* (2013) — named rhetorical figures catalog (anaphora, chiasmus, anadiplosis, litotes, and others)
 
 No verbatim text from copyrighted works is reproduced. Examples are original constructions illustrating the same principles.
 
