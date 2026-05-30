@@ -84,3 +84,48 @@ Three files touch in this order:
 3. **Commit** per `CLAUDE.md § Commit messages` — technical, plugin-impact, isolated per concern, **no source or author refs in commit messages**. Source attribution lives in `ATTRIBUTION.md` and `CHANGELOG.md`, never in git history.
 
 Optional: extend `evals/per-skill/<phase>.json` with use cases that exercise the new material. Worth doing if the integration adds a triggering pattern or covers a register/genre missing from existing evals.
+
+---
+
+## Releasing a new version
+
+Use this when cutting a tagged release. The plugin's version lives in `.claude-plugin/plugin.json`, the git tag mirrors it (`vX.Y.Z`), and `CHANGELOG.md` follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) — `[Unreleased]` accumulates entries between releases and gets sealed under a dated heading at cut time. `marketplace.json` does not pin versions, so tags propagate to installers automatically.
+
+### 1. Decide the bump
+
+Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Pick the bump from what landed since the last tag:
+
+- **Minor (`0.X.0`)** — new skills, new procedure steps, new reference sources, or new genre/register coverage. *Prior art: `0.3.0` added Williams-influenced flow steps, cohesion references, and new smells.*
+- **Patch (`0.X.Y`)** — refinements to existing material: rewording, table tweaks, hand-off polish, small fixes. *Prior art: `0.2.1` added one-line hand-off recommendations to each phase skill.*
+- **Major (`X.0.0`)** — breaking changes to the public surface: skill names, slash-command names, or the phase pipeline. Reserved; not relevant until `1.0`.
+
+When a release mixes minor- and patch-level work, the highest tier wins.
+
+### 2. Seal the changelog
+
+In `CHANGELOG.md`, rename `## [Unreleased]` to `## [X.Y.Z] — YYYY-MM-DD`, then add a fresh, empty `## [Unreleased]` heading above it. Don't pre-stub the `Added` / `Changed` / `Attribution` subheadings — they appear when content lands, matching the texture of prior versioned sections.
+
+### 3. Bump the version
+
+Update the `version` field in `.claude-plugin/plugin.json` to `X.Y.Z`.
+
+### 4. Commit
+
+One commit: `chore: release vX.Y.Z`. Follows `CLAUDE.md § Commit messages` — conventional-commits prefix, one concern, no source or research refs.
+
+### 5. Tag and push
+
+```
+git tag vX.Y.Z
+git push origin main --follow-tags
+```
+
+The `vX.Y.Z` tag format matches the existing `v0.1.0`–`v0.4.0` precedent.
+
+### 6. Publish the GitHub release
+
+```
+gh release create vX.Y.Z --title "vX.Y.Z" --notes-file <path-to-changelog-snippet>
+```
+
+Use the newly-sealed CHANGELOG section as the release body — copy the version's block into a temporary file and pass it via `--notes-file`. Per `CLAUDE.md § Documentation`, the release body inherits the CHANGELOG's peer-entry texture by construction; don't rewrite it for the release page.
