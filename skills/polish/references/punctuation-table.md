@@ -21,9 +21,16 @@ Full reference for `prose-shaper:polish`. The SKILL.md carries an abbreviated 6-
 
 ## Notes on the harder rules
 
-**Colon vs semicolon** is the most common mistake. Test: if what follows is a direct explanation or list of what preceded, use a colon. If both sides are independent clauses that could stand alone, use a semicolon.
+**Colon vs semicolon** is the most common mistake. Both join independent clauses, but they signal different work. A colon tells the reader that what follows is the essence of what just preceded — the same idea restated, exemplified, or specified. A semicolon tells the reader that what follows is a second complete thought, related to the first but not contained in it; both clauses carry their own emphasis. Test: if what follows could be introduced by *namely* or *that is*, use a colon; if it could be introduced by *meanwhile* or *and*, use a semicolon.
 
-**Em dash vs parentheses:** Both set off an aside, but they signal different weight. Em dashes say "pay attention here." Parentheses say "this is supplementary." Use em dashes when the aside changes the sentence's meaning; use parentheses when it merely adds a note.
+- *Colon:* `The pipeline has one bottleneck: the test suite re-runs unchanged modules.`
+- *Semicolon:* `The pipeline re-runs unchanged modules; the cache layer never invalidates.`
+
+**Em dash vs parentheses vs commas** — three settings for an aside, on a single graduated scale of attention. Commas treat the aside as part of the sentence's normal flow; the reader registers it without breaking stride. Em dashes mark the aside as a moment of heightened attention — a beat the writer wants the reader to notice. Parentheses do the opposite: they tell the reader the aside is supplementary and can be skipped without loss. Pick the mark that matches the weight you want the aside to carry.
+
+- *Commas:* `The migration, scheduled for Friday, will rebuild every index.`
+- *Em dashes:* `The migration — scheduled for Friday — will rebuild every index.` (the timing is part of the news)
+- *Parentheses:* `The migration (scheduled for Friday) will rebuild every index.` (the timing is a footnote)
 
 **Compound modifiers:** Hyphenate before the noun ("a well-known bug"), not after ("the bug is well known"). Never hyphenate `-ly` adverb compounds ("a newly released version").
 
