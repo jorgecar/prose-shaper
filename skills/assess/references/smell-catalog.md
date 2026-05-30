@@ -136,4 +136,24 @@ Full definitions and detection rules for the thirteen smell tags used by `assess
 
 ---
 
+## `metadiscourse`
+
+**Definition:** Sentences whose subject is the text itself rather than the world the text is about. The writer announces what they are about to say, recaps what they have just said, or signposts where the document is going — instead of advancing the argument. The reader follows the prose's table of contents instead of its content.
+
+**Example:** "In this section we will outline the three risks. Having considered those risks, we now turn to mitigations." Repair: delete the announcing sentences; let the section's first claim do the work.
+
+**Detection rule:** Flag sentences whose grammatical subject names the text or the writing act (`this section`, `this paper`, `we`, `the author`) paired with verbs of communication (`will discuss`, `argue`, `examine`, `consider`, `turn to`, `have shown`). Distinct from `warm-up`, which is a smell of openings only — metadiscourse can appear anywhere, and most often clusters at section boundaries.
+
+---
+
+## `professional-narcissism`
+
+**Definition:** The writer describes their own research activity — what they studied, what they found, what they conclude — instead of describing the subject directly. The reader learns about the author's process, not the world the writing is supposed to be about.
+
+**Example:** "Our analysis of cache invalidation patterns reveals that stale reads are the dominant failure mode." Repair: "Stale reads are the dominant cache failure mode."
+
+**Detection rule:** Flag sentences whose subject names the writer or the writer's work (`we`, `our analysis`, `this study`, `the present paper`, `our findings`) paired with verbs of inquiry (`find`, `show`, `examine`, `argue`, `conclude`, `reveal`). One use is fine; a pattern is the smell. Distinct from `passive-agent` (the agent is hidden) and `warm-up` (the writer eases into an opening) — here the writer is visible and active, but the subject they study has been pushed off-stage.
+
+---
+
 Load this file when `assess` needs to explain a specific smell to the user.

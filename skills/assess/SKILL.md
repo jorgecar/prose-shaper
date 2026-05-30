@@ -60,6 +60,8 @@ Then below the block, write a brief diagnostic report.
 | `sentence-sprawl` | One sentence buries its main verb behind a long opener or subject, or chains relative clauses |
 | `ungrouped-supports` | The themes under a claim don't form a parallel set of supports — they overlap, restate one another, or leave a gap |
 | `blank-label` | A section heading or topic sentence names the topic but doesn't say anything about it |
+| `metadiscourse` | Sentences announcing the text itself instead of advancing the argument ("In this section we will…") |
+| `professional-narcissism` | Writer describes their own research activity instead of the subject ("Our analysis shows…") |
 
 See `references/smell-catalog.md` for full definitions and detection rules.
 
