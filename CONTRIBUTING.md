@@ -2,7 +2,7 @@
 
 The source-integration playbook below covers adding reference books (such as Williams' *Style: Lessons in Clarity and Grace* and Forsyth's *The Elements of Eloquence*) to the plugin. Other contributor concerns (PR process, dev setup, testing notes) can land here later.
 
-See also: `CLAUDE.md` for the always-loaded project norms (commit messages, extending the plugin, documentation discipline, project scope).
+See also: `CLAUDE.md` for the always-loaded project norms (commit messages, extending the plugin, documentation discipline, project scope), and `CODE_OF_CONDUCT.md` for the conduct floor — including the rules that bind humans submitting agent-authored PRs.
 
 ---
 

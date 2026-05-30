@@ -13,6 +13,7 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 - `flow`: new reference file `references/coherence-relations.md` — twelve discourse relations across four families (resemblance, contiguity, cause-effect, attribution), the connectives that signal each, and two anti-patterns (redundant connective, wrong-relation connective).
 - `assess`: four new smells — `ungrouped-supports` (themes under a claim that overlap or leave a gap), `blank-label` (section headings or topic sentences that name the topic without saying anything about it), `metadiscourse` (sentences announcing the text itself instead of advancing the argument), and `professional-narcissism` (writer describes their own research activity instead of the subject) — with full entries in the smell catalog.
 - `flow`: new reference file `references/paragraph-structure.md` — issue vs. point, the two valid point locations (end of issue, end of discussion), the coda as an optional final position, and the backward link at paragraph start. Pointered from `flow` step 1.
+- `CODE_OF_CONDUCT.md` at the repo root — short conduct floor for human contributors, plus a section making explicit that human submitters are accountable for agent-authored PRs and that agent contributions follow the existing engineering norms.
 
 ### Changed
 

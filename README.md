@@ -82,7 +82,7 @@ For reliable activation, prefer the slash commands above — Claude doesn't alwa
 
 ## Contributing
 
-Issues and PRs welcome at [github.com/jorgecar/prose-shaper](https://github.com/jorgecar/prose-shaper). The plugin practices what it preaches — drafts should run through `/shape` before review.
+Issues and PRs welcome at [github.com/jorgecar/prose-shaper](https://github.com/jorgecar/prose-shaper). The plugin practices what it preaches — drafts should run through `/shape` before review. See `CODE_OF_CONDUCT.md` for conduct expectations (humans and agents).
 
 ## License
 
