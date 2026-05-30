@@ -54,7 +54,7 @@ The first two sentences are the condition and its cost; the last states the poin
 
 ## Interaction
 
-Old-before-new (this file), the flow step that moves the heaviest word last, and short-to-long sentence shape are the same instinct: lead with what's familiar and simple, close with what's new and heavy. The passive exception here is why `clarity` deliberately keeps some passives instead of flipping every one to active. And `topic-drift` and `buried-lede` (assess) are the diagnoses this file's three parts fix.
+Old-before-new (this file), the flow step that moves the heaviest word last, and short-to-long sentence shape are the same instinct: lead with what's familiar and simple, close with what's new and heavy. The passive exception here is why `clarity` deliberately keeps some passives instead of flipping every one to active. And `topic-drift` and `buried-lede` (assess) are the diagnoses this file's three parts fix. The logical layer beneath old-before-new lives in `references/coherence-relations.md` — the twelve kinds of link (elaboration, contrast, cause, sequence, attribution) and the connectives that signal each. Load it when the relation between two sentences is unclear or the right connective is hard to pick.
 
 ---
 
