@@ -4,7 +4,7 @@ Document-level structure: how the themes under a point should relate to it, how 
 
 ---
 
-## Part 1 — The pyramid in one paragraph
+## Part 1 — A document carries one governing thought, supported by grouped ideas
 
 The problem this solves: drafts often present supports in the order ideas arrived, not the order the reader needs them. The result is a body the reader can follow sentence by sentence but cannot reassemble into the point.
 
@@ -14,7 +14,7 @@ Two practical consequences. First, every sentence in the body must answer a ques
 
 ---
 
-## Part 2 — MECE grouping
+## Part 2 — Themes under a point are mutually exclusive and collectively exhaustive
 
 The problem this solves: when themes overlap, the reader hears the same point twice and assumes the writer is padding; when themes leave a gap, the reader spots the missing support and stops trusting the conclusion. Either failure undermines the same point — that the supports cover the claim.
 
@@ -38,7 +38,7 @@ This rule also covers the parallel-form aspect already taught in flow step 6: pa
 
 ---
 
-## Part 3 — Three logical orders
+## Part 3 — Pick time, structural, or comparative order to match the source
 
 The problem this solves: even MECE themes feel random when their sequence is arbitrary. The reader wastes attention re-ordering them silently, and the cumulative argument loses force.
 
@@ -54,7 +54,7 @@ Any valid grouping was created by one of three analytical moves; the resulting t
 
 ---
 
-## Part 4 — Action-noun summaries
+## Part 4 — A heading summarizes what the section says, not what it covers
 
 The problem this solves: section headings like `Background`, `Issues`, or `Findings` tell the reader what category of content follows, not what conclusion to draw from it. The reader skims, the writer's argument disappears under the labels.
 
@@ -78,7 +78,7 @@ This is the structural twin of the `blank-label` smell (see `skills/assess/refer
 
 ---
 
-## Part 5 — Deduction vs induction at horizontal scale
+## Part 5 — Section-level prose usually wants induction, not deduction
 
 The problem this solves: writers default to deductive chains ("A; A implies B; therefore B") even when their supports are actually parallel peers. The forced chain reads as labored and exposes any single weak link, when an inductive list would have stood up on its own.
 

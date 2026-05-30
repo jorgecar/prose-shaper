@@ -14,7 +14,7 @@ Scan the "Reach for it when…" column to shortlist patterns that match the draf
 
 ---
 
-## Patterns
+## Five SCQA reorderings, one per audience and stake
 
 | File | Pattern | Reach for it when… |
 |---|---|---|
