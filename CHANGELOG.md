@@ -12,16 +12,19 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 - `flow`: new procedure step that names the logical link between adjacent sentences (elaboration, contrast, cause, sequence, attribution) and reaches for the right connective.
 - `flow`: new reference file `references/coherence-relations.md` — twelve discourse relations across four families (resemblance, contiguity, cause-effect, attribution), the connectives that signal each, and two anti-patterns (redundant connective, wrong-relation connective).
 - `assess`: four new smells — `ungrouped-supports` (themes under a claim that overlap or leave a gap), `blank-label` (section headings or topic sentences that name the topic without saying anything about it), `metadiscourse` (sentences announcing the text itself instead of advancing the argument), and `professional-narcissism` (writer describes their own research activity instead of the subject) — with full entries in the smell catalog.
+- `flow`: new reference file `references/paragraph-structure.md` — issue vs. point, the two valid point locations (end of issue, end of discussion), the coda as an optional final position, and the backward link at paragraph start. Pointered from `flow` step 1.
 
 ### Changed
 
 - Plugin description and README broadened beyond business prose: essays, fiction, and journalism now surface alongside emails, ADRs, and pitches.
+- `polish`: punctuation-table notes now teach effect alongside rule — what the colon, semicolon, em dash, parentheses, and commas signal to the reader, not just when to use them.
 
 ### Attribution
 
 - Added Mark Forsyth, *The Elements of Eloquence*, as an influence.
 - Added Barbara Minto, *The Minto Pyramid Principle*, as an influence.
 - Added Steven Pinker, *The Sense of Style*, as an influence.
+- Added George Gopen, *The Sense of Structure*, as an influence.
 
 ## [0.4.0] — 2026-05-28
 

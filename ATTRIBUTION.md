@@ -26,6 +26,7 @@ The wrong/good pair patterns and the principles they illustrate are influenced b
 - Mark Forsyth, *The Elements of Eloquence* (2013) — named rhetorical figures catalog (anaphora, chiasmus, anadiplosis, litotes, and others)
 - Barbara Minto, *The Minto Pyramid Principle* (1987) — pyramid logic, SCQA introductions, MECE grouping, logical orders, action-noun summaries
 - Steven Pinker, *The Sense of Style* (2014) — coherence-relations taxonomy and the metadiscourse / professional-narcissism smells
+- George Gopen, *The Sense of Structure* (2004) — paragraph structure (issue / point / coda) and punctuation as functional signal
 
 No verbatim text from copyrighted works is reproduced. Examples are original constructions illustrating the same principles.
 
