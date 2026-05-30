@@ -8,7 +8,7 @@ See also: `CLAUDE.md` for the always-loaded project norms (commit messages, exte
 
 ## Integrating a new source
 
-Use this when adding a reference book or article as an influence on one or more phase skills. The playbook has six phases. Each phase cites a prior-art example so a fresh-context agent or a new contributor can mirror the shape.
+Use this when adding a reference book or article as an influence on one or more phase skills. The playbook has seven phases. Each phase cites a prior-art example so a fresh-context agent or a new contributor can mirror the shape.
 
 ### 1. Scope
 
@@ -67,7 +67,15 @@ If the agent over-loads or picks the wrong item, iterate on the index entries an
 
 Prior art: the two end-to-end tests for the figures catalog — the first run showed the agent could discover figures via the index; the second (after adding skip-if hints) rejected 4 figures from the row alone and shortlisted 10 figures vs. 2 the first time.
 
-### 6. Document
+### 6. Dogfood
+
+Run the plugin's own rules over the new prose. Spawn a fresh-context subagent; have it read `skills/assess/references/smell-catalog.md` and the relevant reference files, then apply the `assess` procedure to each new file the integration adds. The point isn't behavior — phase 5 already covered that — it's the quality of the docs themselves. If a file teaches a rule and breaks it on the same page (a `references/pyramid.md` shipping with `blank-label` headings; an intros file opening with a `warm-up`), fix it before it ships. The plugin's own bar is the highest one any reader will hold these files to, so catch the contradictions yourself.
+
+Most findings are minor — defensible reference-prose conventions, close-call headings, genre-appropriate sentence shapes. The ones worth fixing are the contradictions: a file violating a rule it teaches on the same page, or a CHANGELOG entry drifting from the peer texture set by earlier releases. Those are the cheapest to fix and the most embarrassing to ship.
+
+Prior art: the dogfood pass on the pyramid/SCQA integration caught five `blank-label` headings in `pyramid.md` — the file that introduces the smell — and a sprawled CHANGELOG bullet drifting from peer-entry texture. Two small commits fixed both before any user saw them.
+
+### 7. Document
 
 Three files touch in this order:
 
