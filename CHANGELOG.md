@@ -11,8 +11,7 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 - `flow`: two reference files — `references/pyramid.md` (pyramid logic, MECE, logical orders, action-noun summaries) and `references/introductions.md` (five SCQA opening patterns as a load-on-demand catalog), with original before/after examples.
 - `flow`: new procedure step that names the logical link between adjacent sentences (elaboration, contrast, cause, sequence, attribution) and reaches for the right connective.
 - `flow`: new reference file `references/coherence-relations.md` — twelve discourse relations across four families (resemblance, contiguity, cause-effect, attribution), the connectives that signal each, and two anti-patterns (redundant connective, wrong-relation connective).
-- `assess`: two new smells — `ungrouped-supports` (themes under a claim that overlap or leave a gap) and `blank-label` (section headings or topic sentences that name the topic without saying anything about it) — with full entries in the smell catalog.
-- `assess`: two new smells — `metadiscourse` (sentences announcing the text itself instead of advancing the argument) and `professional-narcissism` (writer describes their own research activity instead of the subject) — with full entries in the smell catalog.
+- `assess`: four new smells — `ungrouped-supports` (themes under a claim that overlap or leave a gap), `blank-label` (section headings or topic sentences that name the topic without saying anything about it), `metadiscourse` (sentences announcing the text itself instead of advancing the argument), and `professional-narcissism` (writer describes their own research activity instead of the subject) — with full entries in the smell catalog.
 
 ### Changed
 
