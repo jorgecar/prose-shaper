@@ -11,9 +11,9 @@
 
 > `*` craft runs only when the register is persuasive
 
-The email you didn't have time to rewrite. The ADR that reads like a memo. The pitch that buries the point on line four. Paste it, run `/shape`, and get back something you actually want to send.
+The essay paragraph that almost made its point. The scene that lost its rhythm halfway through. The email you didn't have time to rewrite. The pitch that buries the point on line four. Paste it, run `/shape`, and get back something worth reading.
 
-Works on emails, docs, ADRs, pitches, fiction — any prose where the words matter more than the format.
+Works on essays, fiction, journalism, emails, docs, ADRs, pitches — any prose where the words matter more than the format.
 
 ## Install
 
