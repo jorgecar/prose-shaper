@@ -21,7 +21,7 @@ Persuasion fails when it argues instead of shows. A single true, specific senten
 6. **Prolepsis.** Find the reader's most likely objection; preempt it with a direct acknowledgment and reframe.
 7. **Let dialogue do work.** Where a direct quote or exchange compresses an entire paragraph of summary, use it. `The team disagreed about the feature` → `"Ship it." / "Over my dead laptop."` Two voices, one decision, no narration.
 8. **Small paragraphs as stories.** A short paragraph can carry a three-beat micro-story: setup, turn, landing. `Write every day. Most days will be dull. Then one won't.` Short paragraphs pivot harder than long ones.
-9. **Reach for a named figure (only if the core moves left a gap).** A sentence may still want a specific shape — a memorable closing, a chain of cause, a pile-up that overwhelms — that none of the six moves above delivers. In that case consult `references/rhetorical-figures.md`. Shortlist figures by the "Reach for it when…" prompts in the index and load only the file(s) for the figure(s) that fit (each lives under `references/figures/<name>.md`). Most paragraphs need none of these.
+9. **Reach for a named figure (only if the core moves left a gap).** A sentence may still want a specific shape — a memorable closing, a chain of cause, a pile-up that overwhelms — that none of the six moves above delivers. Consult `references/rhetorical-figures.md`. Shortlist figures by the "Reach for it when…" prompts in the index and load only the file(s) for the figure(s) that fit (each lives under `references/figures/<name>.md`). Most paragraphs need none of these.
 10. **Cut decoration.** Remove any move or figure that does not move the reader closer to yes. Each rhetorical device must earn its place.
 
 ---
@@ -39,7 +39,7 @@ Persuasion fails when it argues instead of shows. A single true, specific senten
 
 For deeper guidance on each move, see `references/rhetorical-moves.md`.
 
-Beyond the six moves, `references/rhetorical-figures.md` indexes ~30 named rhetorical figures from Forsyth's *The Elements of Eloquence* (anaphora, chiasmus, anadiplosis, litotes, congeries, and more). Each figure has its own file under `references/figures/` with a discovery-style `description` in YAML frontmatter — same pattern as a SKILL.md description, so the agent reads it the same way. Read the index to discover; load only the figure file(s) you need. Procedure step 9 covers when to reach for it.
+Beyond the six moves, `references/rhetorical-figures.md` indexes ~30 named rhetorical figures from Forsyth's *The Elements of Eloquence* (anaphora, chiasmus, anadiplosis, litotes, congeries, and more). Each figure has its own file under `references/figures/` with a `description` in YAML frontmatter, mirroring SKILL.md's format. Read the index to discover; load only the figure file(s) you need. Procedure step 9 covers when to reach for it.
 
 ---
 

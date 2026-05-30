@@ -12,7 +12,7 @@ A note on naming collisions. Forsyth's chapter "Prolepsis" describes the *gramma
 
 ## How to use this index
 
-Scan the "Reach for it when…" column to shortlist figures that match the problem you're trying to solve. Some rows carry an italic *Skip if…* hint — a one-line failure condition the figure imposes. If the hint clearly applies to the prose at hand, reject the figure here and don't load its file. Otherwise load only the figure files you shortlisted (`figures/<name>.md`) for the full `description` (the discovery hook in YAML frontmatter, mirroring SKILL.md's format), definition, and example. Most craft passes will not need this catalog — the six core moves cover most edits.
+Scan the "Reach for it when…" column to shortlist figures that match the problem you're trying to solve. Some rows carry an italic *Skip if…* hint — a one-line failure condition. If the hint clearly applies to the prose at hand, reject the figure here and don't load its file. Otherwise load only the figure files you shortlisted (`figures/<name>.md`) for the full `description` (the discovery hook in YAML frontmatter, mirroring SKILL.md's format), definition, and example. Most craft passes will not need this catalog — the six core moves cover most edits.
 
 For programmatic filtering, every figure file's frontmatter carries `group` (one of: `repetition`, `balance`, `sound`, `sentence-shape`, `trope`). `grep -l "group: trope" figures/*.md` returns all trope figures, for instance.
 
