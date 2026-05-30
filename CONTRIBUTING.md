@@ -1,6 +1,6 @@
 # Contributing to prose-shaper
 
-This file is the contributor process doc. Its only content right now is the source-integration playbook below — the workflow used to add reference books (such as Williams' *Style: Lessons in Clarity and Grace* and Forsyth's *The Elements of Eloquence*) into the plugin. Other contributor concerns (PR process, dev setup, testing notes) can land here later.
+This file is the contributor process doc. Its content is the source-integration playbook below — the workflow for adding reference books (such as Williams' *Style: Lessons in Clarity and Grace* and Forsyth's *The Elements of Eloquence*) into the plugin. Other contributor concerns (PR process, dev setup, testing notes) can land here later.
 
 See also: `CLAUDE.md` for the always-loaded project norms (commit messages, extending the plugin, documentation discipline, project scope).
 
@@ -18,13 +18,13 @@ Audit every chapter or section of the source. Classify each as:
 - **REDUNDANT** — already covered (Strunk on clarity, Williams on cohesion, etc.).
 - **OUT-OF-SCOPE** — poetic, register-mismatched, or decorative; doesn't fit the plugin's prose registers.
 
-For long sources, spawn an Explore-style subagent with the chapter list and the existing skill coverage and ask it to classify each chapter in one line. Then decide what's in. **Bias thin** — coverage that duplicates existing material is worse than nothing.
+For long sources, spawn an Explore-style subagent; give it the chapter list and existing skill coverage; ask it to classify each chapter in one line. Then decide what's in. **Bias thin** — coverage that duplicates existing material is worse than nothing.
 
-Prior art: the 39-chapter audit done for Forsyth (~30 chapters kept; the rest skipped as redundant, register-mismatched, or naming-collisions with existing terms).
+Prior art: the Forsyth audit (39 chapters; ~30 kept; the rest skipped as redundant, register-mismatched, or naming collisions).
 
 ### 2. Shape
 
-For each surviving piece from phase 1, decide where it lives. Three options, possibly mixed in one integration:
+For each surviving piece from phase 1, decide where it lives. Three options; mix freely:
 
 | Option | When to use | Example |
 |---|---|---|
@@ -36,12 +36,12 @@ Decide the shape before you write — it determines everything that follows.
 
 ### 3. Build
 
-Write the content. The rules below are also in `CLAUDE.md § Extending the plugin`:
+Write the content. These rules also live in `CLAUDE.md § Extending the plugin`:
 
 - **Mirror SKILL.md frontmatter** for per-item catalog files. Each file's YAML carries `name`, `group`, and a `description` (does + when-to-use + when-not + keywords) — same shape as a SKILL.md description, so the agent discovers items the same way Claude discovers skills.
-- **Every frontmatter field must earn its place.** If the `description` already carries the info, the field is duplicative.
+- **Every frontmatter field must earn its place.** If the `description` already carries it, the field is duplicative.
 - **All examples are original.** No verbatim text from copyrighted works. `ATTRIBUTION.md` opens with this rule; honor it.
-- **Verify definitions against the source.** A fresh-context subagent reading the source chapters and checking each definition against your draft is cheap insurance. Catch divergences before the integration ships.
+- **Verify definitions against the source.** Spawn a fresh-context subagent to read the source and check each definition against your draft — cheap insurance, catches divergences before they ship.
 
 Prior art: `skills/craft/references/figures/anaphora.md` — per-item file with mirrored frontmatter; `skills/flow/references/cohesion.md` — always-loaded reference.
 
@@ -57,7 +57,7 @@ Prior art: `craft/SKILL.md` procedure step 9 + the reference paragraph after the
 
 ### 5. Verify
 
-Spawn a fresh-context subagent on a representative draft for the target phase. The subagent loads the skill files from disk and applies them. Confirm:
+Spawn a fresh-context subagent on a representative draft for the target phase. Confirm:
 
 - The skill triggers correctly (register gate passes or skips as expected).
 - The new material gets used where it fits.
@@ -65,7 +65,7 @@ Spawn a fresh-context subagent on a representative draft for the target phase. T
 
 If the agent over-loads or picks the wrong item, iterate on the index entries and skip-if hints. Re-test until the same draft produces a clean, efficient run.
 
-Prior art: the two end-to-end tests for the figures catalog — the first run showed the agent could discover figures via the index; the second (after adding skip-if hints) rejected 4 figures from the row alone and shortlisted 10 vs. 2 in the first run.
+Prior art: the two end-to-end tests for the figures catalog — the first run showed the agent could discover figures via the index; the second (after adding skip-if hints) rejected 4 figures from the row alone and shortlisted 10 figures vs. 2 the first time.
 
 ### 6. Document
 
@@ -75,4 +75,4 @@ Three files touch in this order:
 2. **`CHANGELOG.md`** — add entries under `[Unreleased]` in the existing sections (Added / Changed / Attribution). Match the texture of peer entries. Describe what the user gets, not how it's wired.
 3. **Commit** per `CLAUDE.md § Commit messages` — technical, plugin-impact, isolated per concern, **no source or author refs in commit messages**. Source attribution lives in `ATTRIBUTION.md` and `CHANGELOG.md`, never in git history.
 
-Optional: extend `evals/per-skill/<phase>.json` with use cases that exercise the new material. Worth doing if the integration adds a triggering pattern or a register/genre the existing evals don't cover.
+Optional: extend `evals/per-skill/<phase>.json` with use cases that exercise the new material. Worth doing if the integration adds a triggering pattern or covers a register/genre missing from existing evals.
