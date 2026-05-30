@@ -77,7 +77,7 @@ Prior art: the dogfood pass on the pyramid/SCQA integration caught five `blank-l
 
 ### 7. Document
 
-Three files touch in this order:
+Touch three files, in this order:
 
 1. **`ATTRIBUTION.md`** — add a one-line bullet under "Influences (Not Verbatim)" matching peer-entry length. Don't explain the use.
 2. **`CHANGELOG.md`** — add entries under `[Unreleased]` in the existing sections (Added / Changed / Attribution). Match the texture of peer entries. Describe what the user gets, not how it's wired.
