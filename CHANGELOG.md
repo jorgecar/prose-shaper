@@ -7,6 +7,8 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 ### Added
 
 - `craft`: Forsyth rhetorical figures catalog — ~30 named figures (anaphora, chiasmus, anadiplosis, litotes, and more) as a load-on-demand reference for cases the six core moves don't reach.
+- `flow`: "Map the document" now also audits the themes for MECE coverage, picks one logical order (time / structural / comparative), and rewrites category-label headings as complete-thought summaries. New `references/pyramid.md` (pyramid logic, MECE, logical orders, action-noun summaries, deduction vs induction) and `references/introductions.md` catalog of five SCQA opening patterns for cases where the standard opener is wrong for the audience.
+- `assess`: two new smells — `ungrouped-supports` (themes under a claim that overlap or leave a gap) and `blank-label` (section headings or topic sentences that name the topic without saying anything about it) — with full entries in the smell catalog.
 
 ### Changed
 
@@ -15,6 +17,7 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 ### Attribution
 
 - Added Mark Forsyth, *The Elements of Eloquence*, as an influence.
+- Added Barbara Minto, *The Minto Pyramid Principle*, as an influence.
 
 ## [0.4.0] — 2026-05-28
 
