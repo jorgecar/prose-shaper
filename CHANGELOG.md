@@ -4,6 +4,18 @@ All notable changes to prose-shaper will be documented here. Format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- `craft`: Forsyth rhetorical figures catalog — ~30 named figures (anaphora, chiasmus, anadiplosis, litotes, and more) as a load-on-demand reference for cases the six core moves don't reach.
+
+### Changed
+
+- Plugin description and README broadened beyond business prose: essays, fiction, and journalism now surface alongside emails, ADRs, and pitches.
+
+### Attribution
+
+- Added Mark Forsyth, *The Elements of Eloquence*, as an influence.
+
 ## [0.4.0] — 2026-05-28
 
 ### Added
